@@ -1,0 +1,60 @@
+<div class="content">
+    <section id="project-detail" class="project-details-info">
+        <div class="container">
+            <div class="row">
+                <header class="text-center col-md-8 col-md-offset-2">
+                    <h2 class="section-title">{{title}}</h2>
+                </header>
+            </div>
+        </div>
+        <div class="container" style="max-width: 600px">
+            <div class="row portfolio-meta" style="margin-bottom: 2rem">
+                <div class="col-sm-6 col-meta">
+                    <h5>Category</h5>
+                    <span>{{category}}</span>
+                </div>
+                <div class="col-sm-6 col-meta">
+                    <h5>Date</h5>
+                    <span>{{date}}</span>
+                </div>
+            </div>
+            <div class="row portfolio-meta">
+                <div class="col-sm-6 col-meta">
+                    <h5>Designers</h5>
+                    <span>{{designers}}</span>
+                </div>
+                <div class="col-sm-6 col-meta">
+                    <h5>Photography</h5>
+                    <span>{{photography}}</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="section-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                {{#each description}}
+                <p>{{this}}</p>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container" style="max-width:900px">
+    {{#each photos}}
+    <div class="row">
+        {{#each single}}
+        <div class="col-md-12">
+            <img class="img-responsive" style="margin-bottom:2rem" alt="" src="/img/projects/{{../../name}}/{{this}}">
+        </div>
+        {{/each}}
+        {{#each double}}
+        <div class="col-md-6">
+            <img class="img-responsive" style="margin-bottom:2rem" alt="" src="/img/projects/{{../../name}}/{{this}}">
+        </div>
+        {{/each}}
+    </div>
+    {{/each}}
+</div>

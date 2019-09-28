@@ -1,0 +1,9 @@
+{
+    "projects": [
+        {
+            "name": "project_1",
+            "title": "First Project",
+            "category": "Hospitality"
+        }
+    ]
+}

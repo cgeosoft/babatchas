@@ -5,9 +5,9 @@
   <meta charset='utf-8' />
   <meta content='IE=edge' http-equiv='X-UA-Compatible' />
   <meta content='width=device-width, initial-scale=1' name='viewport' />
-  <meta content='Babatchas' name='author' />
+  <meta content='' name='author' />
   <meta name='robots' content='index,follow'>
-  <title>Babatchas</title>
+  <title>babatchas.</title>
   <link rel="stylesheet" type="text/css" href="/css/fonts.css">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <link rel="stylesheet" type="text/css" href="/css/freelance.css">
@@ -25,7 +25,7 @@
   <header class="navbar navbar-dark hidden-md hidden-lg">
     <div>
       <a href="#" class="brand js-target-scroll">
-        Babatchas
+        babatchas.
       </a>
 
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
@@ -35,30 +35,19 @@
         <span class="icon-bar"></span>
       </button>
       <ul class="social-list">
-        <li><a href="" class="fa fa-facebook"></a></li>
-        <li><a href="" class="fa fa-twitter"></a></li>
-        <li><a href="" class="fa fa-linkedin"></a></li>
-        <li><a href="" class="fa fa-instagram"></a></li>
+        <li><a href="{{_base.social.facebook}}" target="_blank" class="fa fa-facebook"></a></li>
+        <li><a href="{{_base.social.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
+        <li><a href="{{_base.social.instagram}}" target="_blank" class="fa fa-instagram"></a></li>
       </ul>
 
       <nav class="nav-mobile hidden-md hidden-lg">
         <div class="collapse navbar-collapse" id="nav-collapse">
           <ul class="nav-mobile-list">
-            <li>
-              <a href="index.html">Home</a>
+            {{#each _base.menu}}
+            <li class="{{equal ../active page "active"}}">
+              <a href="/{{language}}{{page}}.html">{{label}}</a>
             </li>
-            <li>
-              <a href="about.html">About</a>
-            </li>
-            <li>
-              <a href="projects.html">Projects</a>
-            </li>
-            <li>
-              <a href="services.html">Services</a>
-            </li>
-            <li>
-              <a href="contact.html">Contact</a>
-            </li>
+            {{/each}}
           </ul>
         </div>
       </nav>
@@ -67,37 +56,26 @@
   <header class="visible-md visible-lg navbar-left">
     <div class="brand-panel">
       <a href="#" class="brand js-target-scroll">
-        Babatchas
+        babatchas.
       </a>
     </div>
 
     <nav class="nav-desctop hidden-xs hidden-sm">
       <ul class="nav-desctop-list">
-        <li>
-          <a href="index.html">Home</a>
+        {{#each _base.menu}}
+        <li class="{{equal ../page page "active"}}">
+          <a href="/{{../language}}/{{page}}.html">{{label}}</a>
         </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="projects.html">Projects</a>
-        </li>
-        <li>
-          <a href="services.html">Services</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
+        {{/each}}
       </ul>
     </nav>
-    <div class="address-panel hidden-xs hidden-sm">
-      <address><a href="tel:+8 800 555 35 35">+8 800 555 35 35</a></address>
-      <address><a href="mailto:info@Babatchascom">info@Babatchascom</a></address>
-    </div>
-    <ul class="social-list">
-      <li><a href="" class="fa fa-facebook"></a></li>
-      <li><a href="" class="fa fa-twitter"></a></li>
-      <li><a href="" class="fa fa-linkedin"></a></li>
-      <li><a href="" class="fa fa-instagram"></a></li>
+    <ul class="social-list" style="margin-top: 7rem">
+      <li><a href="{{_base.social.facebook}}" target="_blank" class="fa fa-facebook"></a></li>
+      <li><a href="{{_base.social.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
+      <li><a href="{{_base.social.instagram}}" target="_blank" class="fa fa-instagram"></a></li>
     </ul>
+    <div style="padding-top:2em">
+      <a href="/en">[en]</a> | <a href="/el">[el]</a>
+    </div>
+
   </header>

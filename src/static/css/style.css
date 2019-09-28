@@ -29,21 +29,21 @@ body {
 
 ::-webkit-scrollbar-thumb {
 	cursor: pointer;
-	background: #6534ff
+	background: #333
 }
 
 ::selection {
-	background-color: #6534ff;
+	background-color: #333;
 	color: #fff
 }
 
 -webkit-::selection {
-	background-color: #6534ff;
+	background-color: #333;
 	color: #fff
 }
 
 ::-moz-selection {
-	background-color: #6534ff;
+	background-color: #333;
 	color: #fff
 }
 
@@ -149,7 +149,7 @@ ul {
 }
 
 a {
-	color: #6534ff;
+	color: #333;
 	-webkit-transition: color .3s ease-out;
 	-o-transition: color .3s ease-out;
 	transition: color .3s ease-out
@@ -157,7 +157,7 @@ a {
 
 a:hover,
 a:focus {
-	color: #6534ff;
+	color: #333;
 	outline: none
 }
 
@@ -207,7 +207,7 @@ input[type=email]:focus,
 input[type=search]:focus,
 input[type=tel]:focus,
 textarea:focus {
-	border-color: #6534ff;
+	border-color: #333;
 	border-right-width: 0;
 	outline: 0
 }
@@ -251,7 +251,7 @@ input.input-round {
 }
 
 input.input-round:focus {
-	border-color: #6534ff
+	border-color: #333
 }
 
 textarea.input-round {
@@ -300,7 +300,7 @@ textarea.input-round {
 }
 
 input.error {
-	border-color: #6534ff
+	border-color: #333
 }
 
 .mc-label,
@@ -333,7 +333,7 @@ label.error {
 	text-transform: uppercase;
 	text-decoration: none;
 	box-shadow: 0 10px 20px rgba(101, 52, 255, .3);
-	background-color: #6534ff;
+	background-color: #333;
 	-webkit-transition: all .3s ease-out!important;
 	transition: all .3s ease-out!important
 }
@@ -411,7 +411,7 @@ label.error {
 	width: 8em;
 	height: 8em;
 	line-height: 8em;
-	border: 3px solid #6534ff;
+	border: 3px solid #333;
 	border-radius: 50%;
 	margin-top: 5em;
 	text-align: center;
@@ -429,7 +429,7 @@ label.error {
 }
 
 .icon-home-video:hover {
-	background-color: #6534ff
+	background-color: #333
 }
 
 .icon-home-video:hover .ion-ios-play {
@@ -478,7 +478,7 @@ label.error {
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
-	background-color: #6534ff;
+	background-color: #333;
 	opacity: .6;
 	position: absolute;
 	top: 0;
@@ -559,7 +559,7 @@ label.error {
 	display: inline-block;
 	width: 48px;
 	height: 4px;
-	background-color: #6534ff;
+	background-color: #333;
 	margin: 2.2em 0
 }
 
@@ -577,7 +577,7 @@ label.error {
 }
 
 .text-primary {
-	color: #6534ff
+	color: #333
 }
 
 .text-white {
@@ -618,7 +618,7 @@ label.error {
 }
 
 .bg-dark-blue {
-	background-color: #6534ff
+	background-color: #333
 }
 
 .bg-yellow {
@@ -626,7 +626,7 @@ label.error {
 }
 
 .bg-primary {
-	background-color: #6534ff
+	background-color: #333
 }
 
 .pt-0 {
@@ -721,7 +721,7 @@ label.error {
 
 .social-list li a:hover {
 	text-decoration: none;
-	color: #6534ff
+	color: #333
 }
 
 .nav-desctop-list {
@@ -826,7 +826,7 @@ label.error {
 	width: 3em;
 	height: 2px;
 	margin-right: 10px;
-	background-color: #6534ff;
+	background-color: #333;
 	-webkit-transition: all .5s;
 	-o-transition: all .5s;
 	transition: all .5s
@@ -929,7 +929,7 @@ label.error {
 .nav-mobile-list li a:hover,
 .nav-mobile-list li .active>a,
 .nav-mobile-list .current>a {
-	color: #6534ff
+	color: #333
 }
 
 .nav-mobile-list .current>a .fa-angle-down {
@@ -941,7 +941,7 @@ label.error {
 
 .nav-mobile-list>.active>a,
 .nav-mobile-list>.active>a:hover {
-	background-color: #6534ff;
+	background-color: #333;
 	color: #fff;
 	-webkit-transition: none;
 	-o-transition: none;
@@ -998,11 +998,11 @@ label.error {
 
 .navbar.affix .social-list li a:hover {
 	text-decoration: none;
-	color: #6534ff
+	color: #333
 }
 
 .navbar.affix .navbar-toggle .icon-bar {
-	background-color: #6534ff
+	background-color: #333
 }
 
 .navbar-dark.affix {
@@ -1096,7 +1096,7 @@ label.error {
 }
 
 .navbar-left address a:hover {
-	color: #6534ff;
+	color: #333;
 	text-decoration: none
 }
 
@@ -1531,8 +1531,8 @@ label.error {
 	width: 6em;
 	height: 6em;
 	line-height: 6em;
-	border: 3px solid #6534ff;
-	background-color: #6534ff;
+	border: 3px solid #333;
+	background-color: #333;
 	border-radius: 50%;
 	margin-top: 5em;
 	color: #fff;
@@ -1549,10 +1549,10 @@ label.error {
 
 .icon-video-section:hover,
 .icon-video-section:focus {
-	background-color: #6534ff;
+	background-color: #333;
 	color: #fff;
 	background-color: transparent;
-	color: #6534ff
+	color: #333
 }
 
 .statistics {
@@ -1614,7 +1614,7 @@ label.error {
 
 .filter li a:hover,
 .filter .active a {
-	color: #6534ff;
+	color: #333;
 	text-decoration: none
 }
 
@@ -1645,9 +1645,21 @@ label.error {
 	color: #fff
 }
 
+.showcase-item img{
+	-webkit-transition: -webkit-filter 500ms linear;
+	transition: filter 500ms linear;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+
+.showcase-item:hover img{
+	-webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(0%);
+}
+
 .showcase-item-thumbnail img {
 	display: block;
-	width: 100%
+	width: 100%;
 }
 
 .showcase-item-hover {
@@ -1667,7 +1679,7 @@ label.error {
 }
 
 .showcase-item-hover.dark {
-	background-color: rgba(14, 14, 14, .9)
+	background-color: rgba(14, 14, 14, 0.349)
 }
 
 .showcase-item-info {
@@ -2139,7 +2151,7 @@ img.mfp-img {
 }
 
 .author:hover {
-	color: #6534ff;
+	color: #333;
 	text-decoration: none;
 }
 
@@ -2176,7 +2188,7 @@ img.mfp-img {
 
 .post-rubric:hover {
 	text-decoration: none;
-	color: #6534ff;
+	color: #333;
 }
 
 .post-date {
@@ -2227,7 +2239,7 @@ img.mfp-img {
 }
 
 .widget_categories li a:hover {
-	color: #6534ff;
+	color: #333;
 	text-decoration: none;
 }
 
@@ -2252,7 +2264,7 @@ img.mfp-img {
 
 .blog-tags a:hover {
 	color: #fff;
-	background-color: #6534ff;
+	background-color: #333;
 	text-decoration: none;
 }
 
@@ -2408,7 +2420,7 @@ img.mfp-img {
 }
 
 .owl-page.active {
-	background-color: #6534ff;
+	background-color: #333;
 }
 
 .partner {
@@ -2462,7 +2474,7 @@ img.mfp-img {
 }
 
 .banner-dark-blue:before {
-	background-color: #6534ff;
+	background-color: #333;
 }
 
 .banner-title {
@@ -2503,7 +2515,7 @@ img.mfp-img {
 }
 
 .address-item .icon {
-	color: #6534ff;
+	color: #333;
 }
 
 .address-fl-item .icon {
@@ -2691,7 +2703,7 @@ img.mfp-img {
 }
 
 .nav-bottom li a:hover {
-	color: #6534ff;
+	color: #333;
 	text-decoration: none;
 }
 
@@ -2708,7 +2720,7 @@ img.mfp-img {
 }
 
 .col-contacts a:hover {
-	color: #6534ff;
+	color: #333;
 	text-decoration: none;
 }
 
@@ -2796,7 +2808,7 @@ img.mfp-img {
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	font-size: 1.8em;
-	color: #6534ff;
+	color: #333;
 }
 
 .modal-info {

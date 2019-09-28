@@ -1,3 +1,26 @@
 {
-    "update": "29-12-2016"
+    "update": "29-12-2016",
+    "social": {
+        "facebook": "https://facebook.com",
+        "linkedin": "https://linkedin.com",
+        "instagram": "https://instagram.com"
+    },
+    "menu": [
+        {
+            "page": "index",
+            "label": "Home"
+        },
+        {
+            "page": "studio",
+            "label": "Studio"
+        },
+        {
+            "page": "projects",
+            "label": "Projects"
+        },
+        {
+            "page": "contact",
+            "label": "Contact"
+        }
+    ]
 }
