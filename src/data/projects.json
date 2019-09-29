@@ -1,7 +1,7 @@
 {
     "projects": [
         {
-            "name": "project_1",
+            "name": "test-project",
             "title": "First Project",
             "category": "Hospitality"
         }

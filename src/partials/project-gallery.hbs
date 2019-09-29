@@ -1,0 +1,16 @@
+<div class="container">
+    {{#each photos}}
+    <div class="row">
+        {{#each single}}
+        <div class="col-md-12">
+            <img class="img-responsive" style="margin-bottom:2rem" alt="" src="/img/projects/{{../../name}}/{{this}}">
+        </div>
+        {{/each}}
+        {{#each double}}
+        <div class="col-md-6">
+            <img class="img-responsive" style="margin-bottom:2rem" alt="" src="/img/projects/{{../../name}}/{{this}}">
+        </div>
+        {{/each}}
+    </div>
+    {{/each}}
+</div>

@@ -1,0 +1,38 @@
+{
+    "name": "test-project",
+    "title": "First Project",
+    "category": "Hospitality",
+    "designers": "John Snow, Daenerys Targaryen",
+    "photography": "Arya Stark",
+    "date": "August - November, 2016",
+    "photos": [
+        {
+            "single": [
+                "001.jpg"
+            ]
+        },
+        {
+            "double": [
+                "002.jpg",
+                "003.jpg"
+            ]
+        },
+        {
+            "double": [
+                "004.jpg",
+                "005.jpg"
+            ]
+        },
+        {
+            "single": [
+                "006.jpg"
+            ]
+        },
+        {
+            "double": [
+                "007.jpg",
+                "008.jpg"
+            ]
+        }
+    ]
+}
