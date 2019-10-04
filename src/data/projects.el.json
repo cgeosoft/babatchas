@@ -1,0 +1,29 @@
+{
+    "filtersAll": "Όλα",
+    "filters": [
+        "Ξενοδοχειακό",
+        "Κατοικία",
+        "Καταστήματα",
+        "Product"
+    ],
+    "projects": [
+        {
+            "name": "house-sk-arkadia",
+            "title": "Κατοικία ΣΚ, Αρκαδία",
+            "category": "Κατοικία",
+            "photo": "001.jpg"
+        },
+        {
+            "name": "kafeneio-gakias",
+            "title": "Παραδοσιακό καφενείο \"Γάκιας\"",
+            "category": "Καταστήματα",
+            "photo": "001.jpg"
+        },
+        {
+            "name": "monsieur-didot",
+            "title": "Monsieur Didot, The Residence",
+            "category": "Ξενοδοχειακό",
+            "photo": "001.jpg"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "filtersAll": "All",
+    "filters": [
+        "Hospitality",
+        "Residential",
+        "Commercial",
+        "Product"
+    ],
+    "projects": [
+        {
+            "name": "house-sk-arkadia",
+            "title": "House SK, Arkadia",
+            "category": "Residential",
+            "photo": "001.jpg"
+        },
+        {
+            "name": "kafeneio-gakias",
+            "title": "Traditional coffeehouse \"Gakias\"",
+            "category": "Commercial",
+            "photo": "001.jpg"
+        },
+        {
+            "name": "monsieur-didot",
+            "title": "Monsieur Didot, The Residence",
+            "category": "Hospitality",
+            "photo": "001.jpg"
+        }
+    ]
+}
