@@ -1,14 +1,14 @@
 <div class="container">
     {{#each photos}}
-    <div class="row">
+    <div class="row" style="margin-bottom:2rem">
         {{#each single}}
         <div class="col-md-12">
-            <img class="mx-auto" style="margin-bottom:2rem" alt="" src="/img/projects/{{../../name}}/{{this}}">
+            <img class="img-responsive center-block" src="/img/projects/{{../../name}}/{{this}}">
         </div>
         {{/each}}
         {{#each double}}
         <div class="col-md-6">
-            <img class="mx-auto" style="margin-bottom:2rem" alt="" src="/img/projects/{{../../name}}/{{this}}">
+            <img class="img-responsive center-block" src="/img/projects/{{../../name}}/{{this}}">
         </div>
         {{/each}}
     </div>
