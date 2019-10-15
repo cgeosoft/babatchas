@@ -1,10 +1,9 @@
 {
     "filtersAll": "All",
     "filters": [
-        "Hospitality",
-        "Residential",
-        "Commercial",
-        "Product"
+        "HOSPITALITY",
+        "RESIDENTIAL",
+        "COMMERCIAL"
     ],
     "projects": [
         {
