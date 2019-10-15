@@ -10,19 +10,19 @@
             "name": "house-sk-arkadia",
             "title": "House SK, Arkadia",
             "category": "Residential",
-            "photo": "001.jpg"
+            "photo": "main.jpg"
         },
         {
             "name": "kafeneio-gakias",
             "title": "Traditional coffeehouse \"Gakias\"",
             "category": "Commercial",
-            "photo": "001.jpg"
+            "photo": "main.jpg"
         },
         {
             "name": "monsieur-didot",
             "title": "Monsieur Didot, The Residence",
             "category": "Hospitality",
-            "photo": "001.jpg"
+            "photo": "main.jpg"
         }
     ]
 }

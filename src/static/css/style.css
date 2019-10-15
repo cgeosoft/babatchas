@@ -9,13 +9,19 @@
 @import '/css/settings.css';
 @import '/css/layers.css';
 @import '/css/navigation.css';
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Comfortaa', cursive;
+ */
+
 html {
 	font-size: 80%;
 	-webkit-font-smoothing: antialiased
 }
 
 body {
-	font-family: lora, serif;
+	font-family: 'Comfortaa', cursive;
 	font-size: 1em;
 	line-height: 1.875;
 	color: #4b4b4b;
@@ -49,7 +55,7 @@ body {
 
 h1,
 .h1 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 4.3em;
 	line-height: 1.2;
@@ -60,12 +66,11 @@ h1,
 h1 i,
 .h1 i {
 	display: inline-block;
-	font-family: playfair display, serif
 }
 
 h2,
 .h2 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 2.5em;
 	color: #3b3b3b;
@@ -74,7 +79,7 @@ h2,
 
 h3,
 .h3 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.875em;
 	line-height: 1.5;
 	font-weight: 700;
@@ -83,7 +88,7 @@ h3,
 
 h4,
 .h4 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.25em;
 	line-height: 1.35;
 	font-weight: 700;
@@ -95,7 +100,7 @@ h4,
 
 h5,
 .h5 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: .875em;
 	line-height: 1.35;
 	font-weight: 700;
@@ -107,7 +112,7 @@ h5,
 
 h6,
 .h6 {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: .75em;
 	line-height: 1.35;
 	font-weight: 400;
@@ -318,7 +323,7 @@ label.error {
 }
 
 .btn {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	color: #fff;
 	letter-spacing: .28em;
@@ -340,7 +345,7 @@ label.error {
 
 .btn:hover,
 .btn:focus {
-	background-color: #7549ff;
+	background-color: #111;
 	color: #fff;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -353,7 +358,7 @@ label.error {
 }
 
 .btn.btn-trans:hover {
-	background-color: #7549ff
+	background-color: #111
 }
 
 .btn.btn-trans-2 {
@@ -362,12 +367,12 @@ label.error {
 }
 
 .btn.btn-trans-2:hover {
-	background-color: #7549ff
+	background-color: #111
 }
 
 .btn-violet {
 	box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
-	background-color: #7549ff
+	background-color: #111
 }
 
 .btn-gray {
@@ -660,7 +665,7 @@ label.error {
 }
 
 .brand {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.875em;
 	font-weight: 700;
 	line-height: 1;
@@ -725,7 +730,7 @@ label.error {
 }
 
 .nav-desctop-list {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	font-size: .81em;
 	text-align: center;
@@ -897,7 +902,7 @@ label.error {
 }
 
 .nav-mobile-list {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: .8em;
 	letter-spacing: .1em;
@@ -1257,7 +1262,7 @@ label.error {
 
 .mouse-helper span {
 	display: block;
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1em;
 	text-transform: uppercase;
 	letter-spacing: .4em
@@ -1393,7 +1398,7 @@ label.error {
 }
 
 .object-meta {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	letter-spacing: .4em!important;
 	text-transform: uppercase
 }
@@ -1565,7 +1570,7 @@ label.error {
 }
 
 .stat-number {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	font-size: 5rem;
 	line-height: 1;
@@ -1594,7 +1599,7 @@ label.error {
 }
 
 .filter {
-	font-family: montserrat, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	font-size: .75em;
 	font-weight: 700;
