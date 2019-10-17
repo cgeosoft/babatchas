@@ -1,35 +1,11 @@
 {
     "name": "house-sk-arkadia",
     "photos": [
-        {
-            "single": [
-                "001.jpg"
-            ]
-        },
-        {
-            "single": [
-                "002.jpg"
-            ]
-        },
-        {
-            "single": [
-                "003.jpg"
-            ]
-        },
-        {
-            "single": [
-                "004.jpg"
-            ]
-        },
-        {
-            "single": [
-                "005.jpg"
-            ]
-        },
-        {
-            "single": [
-                "006.jpg"
-            ]
-        }
+        "001.jpg",
+        "002.jpg",
+        "003.jpg",
+        "004.jpg",
+        "005.jpg",
+        "006.jpg"
     ]
 }

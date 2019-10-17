@@ -1,18 +1,6 @@
 <div class="container">
     {{#each photos}}
-    <div class="row" style="margin-bottom:2rem">
-        {{#each single}}
-        <div class="col-md-12">
-            <img class="lazy img-responsive center-block" src="/img/placeholder.jpg"
-                data-src="/img/projects/{{../../name}}/{{this}}">
-        </div>
-        {{/each}}
-        {{#each double}}
-        <div class="col-md-6">
-            <img class="lazy img-responsive center-block" src="/img/placeholder.jpg"
-                data-src="/img/projects/{{../../name}}/{{this}}">
-        </div>
-        {{/each}}
-    </div>
+    <img class="lazy img-responsive center-block" style="margin-bottom:2rem" src="/img/placeholder.jpg"
+        data-src="/img/projects/{{../name}}/{{this}}">
     {{/each}}
 </div>
