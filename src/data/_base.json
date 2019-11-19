@@ -19,6 +19,10 @@
             "label": "Projects"
         },
         {
+            "page": "press",
+            "label": "Press"
+        },
+        {
             "page": "contact",
             "label": "Contact"
         }
