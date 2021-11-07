@@ -1,0 +1,78 @@
+{{>_start}}
+
+<div class="content">
+    <section id="project-detail" class="project-details-info">
+        <div class="container">
+            <div class="row">
+                <header class="text-center col-md-8 col-md-offset-2">
+                    <h2 class="section-title">{{title}}</h2>
+                </header>
+            </div>
+        </div>
+        <div class="container" style="max-width: 600px">
+            <div class="row portfolio-meta" style="margin-bottom: 2rem">
+                <div class="col-sm-6 col-meta">
+                    <h5>Category</h5>
+                    <span>{{category}}</span>
+                </div>
+                <div class="col-sm-6 col-meta">
+                    <h5>Date</h5>
+                    <span>{{pdate}}</span>
+                </div>
+            </div>
+            <div class="row portfolio-meta">
+                <div class="col-sm-6 col-meta">
+                    <h5>Designers</h5>
+                    <span>{{designers}}</span>
+                </div>
+                <div class="col-sm-6 col-meta">
+                    <h5>Photography</h5>
+                    <span>{{photography}}</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+{{#if hasVideo}}
+<div class="container" style="display: flex; justify-content:center">
+    <iframe src="{{videoUrl}}" width="750" height="422" frameborder="0" style="display:block"
+        allow="autoplay; fullscreen" allowfullscreen></iframe>
+</div>
+{{/if}}
+
+<section class="section-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                {{#each description}}
+                <p>{{this}}</p>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container" style="margin-bottom: 2rem;">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            {{#each photos}}
+            <div class="item {{equal @index 1 "active"}}">
+                <img src="/img/projects/{{../paths.name}}/{{this}}">
+            </div>
+            {{/each}}
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+            <span class="glyphicon fa glyphicon-chevron-left fa-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+            <span class="glyphicon fa glyphicon-chevron-right fa-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+{{>_end}}

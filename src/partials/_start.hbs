@@ -14,73 +14,14 @@
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <link rel="stylesheet" type="text/css" href="/css/freelance.css">
   <link rel="stylesheet" type="text/css" href="/css/freelance-light.css">
+
+  {{#if og.enable}}
+  <meta property="og:title" content="{{og.title}} - BaBatchasDesignStudio" />
+  <meta property="og:description" content="{{og.description}}" />
+  <meta property="og:image" content="{{data.globals.domain}}/img/{{og.image}}" />
+  {{/if}}
 </head>
 
 <body>
-  <div class="loader" style="display: none;">
-    <div class="spinner">
-      <div class="double-bounce1"></div>
-      <div class="double-bounce2"></div>
-    </div>
-  </div>
 
-  <header class="navbar hidden-md hidden-lg">
-    <div>
-      <a href="/{{language}}/index.html" class="brand js-target-scroll">
-        <img src="/img/logo.png" alt="logo" style="width:246px;">
-      </a>
-
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <ul class="social-list hidden-xs hidden-sm">
-        <li><a href="{{_base.social.facebook}}" target="_blank" class="fa fa-facebook"></a></li>
-        <li><a href="{{_base.social.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li>
-        <li><a href="{{_base.social.instagram}}" target="_blank" class="fa fa-instagram"></a></li>
-      </ul>
-
-      <nav class="nav-mobile hidden-md hidden-lg">
-        <div class="collapse navbar-collapse" id="nav-collapse">
-          <ul class="nav-mobile-list">
-            {{#each _base.menu}}
-            <li class="{{equal ../active page "active"}}">
-              <a href="/{{../language}}/{{page}}.html">{{label}}</a>
-            </li>
-            {{/each}}
-            <li class="text-right">
-              <a href="/en/{{page}}.html" style="display:inline-block; padding:1rem">[en]</a>
-              <a href="/el/{{page}}.html" style="display:inline-block; padding:1rem">[el]</a>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <header class="visible-md visible-lg navbar-left">
-    <div class="brand-panel">
-      <a href="/{{language}}/index.html" class="brand js-target-scroll">
-        <img src="/img/logo.png" alt="logo" style="width:246px;">
-      </a>
-    </div>
-
-    <nav class="nav-desctop hidden-xs hidden-sm">
-      <ul class="nav-desctop-list">
-        {{#each _base.menu}}
-        <li class="{{equal ../page page "active"}}">
-          <a href="/{{../language}}/{{page}}.html">{{label}}</a>
-        </li>
-        {{/each}}
-      </ul>
-    </nav>
-    <ul class="social-list" style="margin-top: 7rem">
-      <li><a href="{{_base.social.facebook}}" target="_blank" class="fa fa-facebook"></a></li>
-      {{!-- <li><a href="{{_base.social.linkedin}}" target="_blank" class="fa fa-linkedin"></a></li> --}}
-      <li><a href="{{_base.social.instagram}}" target="_blank" class="fa fa-instagram"></a></li>
-    </ul>
-    <div style="padding-top:2em">
-      <a href="/en/{{page}}.html">[en]</a> | <a href="/el/{{page}}.html">[el]</a>
-    </div>
-
-  </header>
+  {{>menu}}
