@@ -6,7 +6,7 @@ title: Peribanu Boutique Hotel
 category: Κατοικία
 og: true
 description:
-- υπο κατασκευή
+- σε εξέλιξη
 photos:
 - "main.jpg"
 - "main.jpg"

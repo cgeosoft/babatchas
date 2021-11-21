@@ -5,7 +5,7 @@ title: The Storyteller, Boutique Hotel
 category: Hospitality
 og: true
 description:
-- under construction
+- in progress
 photos:
 - "main.jpg"
 - "main.jpg"

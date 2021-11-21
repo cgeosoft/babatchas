@@ -6,7 +6,7 @@ title: Santorini Elements, Boutique Hotel
 category: Hospitality
 og: true
 description:
-- υπο κατασκευή
+- σε εξέλιξη
 photos:
 - "main.jpg"
 - "main.jpg"

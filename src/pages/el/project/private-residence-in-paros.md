@@ -6,7 +6,7 @@ title: Ιδιωτική κατοικία στην Πάρο
 category: Κατοικία
 og: true
 description:
-- υπο κατασκευή
+- σε εξέλιξη
 photos:
 - "main.jpg"
 - "main.jpg"
