@@ -1,15 +1,12 @@
 ---
 layout: project.hbs
+key: residence-in-kolonaki
 title: Private residence in Kolonaki
 category: Residential
 designers: Gkyzi Nefeli, Makri Chrysi
 photography: Roufopoulou Ioanna
 pdate: May.2021
-og:
-  enable: true
-  title: Private residence in Kolonaki
-  description: The refined charm of Kolonaki square meets the art of mid-century design in the latest project of Babatchas Design Studio
-  image: projects/residence-in-kolonaki/main.jpg
+og: true
 hasVideo: true
 videoUrl: https://player.vimeo.com/video/621495333
 description:

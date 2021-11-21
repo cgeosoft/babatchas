@@ -1,15 +1,12 @@
 ---
 layout: project.hbs
+key: monsieur-didot
 title: Monsieur Didot, The Residence
 category: Hospitality
 designers: Gkyzi Nefeli, Makri Chrysi
 photography: Roufopoulou Ioanna
 pdate: September.2019
-og:
-  enable: true
-  title: Monsieur Didot, The Residence
-  description: Babatchas design studio began exploring the design of this building with outmost respect for its neoclassical architectural routes
-  image: projects/monsieur-didot/main.jpg
+og: true
 hasVideo: true
 videoUrl: https://player.vimeo.com/video/487389633
 description:

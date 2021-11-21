@@ -1,15 +1,12 @@
 ---
 layout: project.hbs
+key: house-sk-arkadia
 title: House SK, Arkadia
 category: Residential
 designers: Makri Chrysi
 photography: Makri Chrysi, Tzalla Lena
 pdate: April.2013
-og:
-  enable: true
-  title: House SK, Arkadia
-  description: The owners of this stone-build residence located in the village of Agios Andreas in Arcadia Province, appointed BaΒatchas to design a holiday retreat, that could also work as the main residence.
-  image: projects/house-sk-arkadia/main.jpg
+og: true
 description:
 - The owners of this stone-build residence located in the village of Agios Andreas
   in Arcadia Province, appointed BaΒatchas to design a holiday retreat, that could

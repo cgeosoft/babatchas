@@ -1,15 +1,12 @@
 ---
 layout: project.hbs
+key: kafeneio-gakias
 title: Traditional coffeehouse "Gakias"
 category: Commercial
 designers: Makri Chrysi, Tzalla Lena
 photography: Makri Chrysi, Tzalla Lena
 pdate: June.2017
-og:
-  enable: true
-  title: Traditional coffeehouse "Gakias"
-  description: This project targeted a 1900’s building, initially run as a small, low-key tavern. In the course of time, a number of alterations were introduced to the pre-existing main area, expanding the building to its garden’s perimeter. A secondary room was further added to enlarge the sitting area, followed by a small kitchen, a storage room, a washing area, lavatories and connecting corridors.
-  image: projects/kafeneio-gakias/main.jpg
+og: true
 description:
 - 'This project targeted a 1900’s building, initially run as a small, low-key tavern.
   In the course of time, a number of alterations were introduced to the pre-existing

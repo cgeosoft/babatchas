@@ -1,23 +1,13 @@
 ---
 layout: project.hbs
+key: monsieur-didot
 lang: el/
 title: Monsieur Didot, The Residence
 category: Ξενοδοχειακό
 designers: Γκύζη Νεφέλη, Μακρή Χρυσή
 photography: Ρουφοπούλου Ιωάννα
 pdate: Σεπτέμβριος.2019
-og:
-  enable: true
-  title: Monsieur Didot, The Residence
-  description: "Το ΒaBatchas Design Studio προσέγγισε την ιδέα της αναγέννησης του νεοκλασικού
-  κτιρίου επί της οδού Διδότου, με ιδιαίτερο σεβασμό ως προς την διατήρηση του χαρακτήρα
-  αλλά και την επαναδιαπραγμάτευση των εκλεκτιστικών στοιχείων, τα οποία συνθέτουν
-  αντίστοιχα κτίρια της ίδιας εποχής. Η σχεδίαση των εσωτερικών χώρων με τις λιγότερες
-  δυνατές επεμβάσεις επιτυγχάνει τον σκοπό της νέας λειτουργίας του κτιρίου ως boutique
-  ξενοδοχειακή μονάδα, κρατώντας στο επίκεντρο το κύριο χαρακτηριστικό των νεοκλασικών
-  κτιρίων: Tην κλιμάκωση της διαδρομής του επισκέπτη μέσα από μια αλληλουχία εντυπωσιακών
-  χώρων."
-  image: projects/house-sk-arkadia/main.jpg
+og: true
 hasVideo: true
 videoUrl: https://player.vimeo.com/video/487389633
 description:

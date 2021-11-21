@@ -9,24 +9,50 @@ filters:
 - key: commercial
   label: COMMERCIAL
 projects:
-- name: residence-in-kolonaki
-  title: Private residence in Kolonak
+
+- name: private-residence-in-kardiani
+  title: Private residence in Kardiani, Tinos
   categoryKey: residential
   category: Residential
-  photo: main.jpg
+
+- name: private-residence-in-paros
+  title: Private residence in Paros
+  categoryKey: residential
+  category: Residential
+
+- name: peribanu
+  title: Peribanu Boutique Hotel
+  categoryKey: hospitality
+  category: Hospitality
+
+- name: santorini-elements
+  title: Santorini Elements, Boutique Hotel
+  categoryKey: hospitality
+  category: Hospitality
+
+- name: the-storyteller
+  title: The Storyteller, Boutique Hotel
+  categoryKey: hospitality
+  category: Hospitality
+
+- name: residence-in-kolonaki
+  title: Private residence in Kolonaki
+  categoryKey: residential
+  category: Residential
+
 - name: house-sk-arkadia
   title: House SK, Arkadia
   categoryKey: residential
   category: Residential
-  photo: main.jpg
+
 - name: kafeneio-gakias
   title: Traditional coffeehouse "Gakias"
   categoryKey: commercial
   category: Commercial
-  photo: main.jpg
+
 - name: monsieur-didot
   title: Monsieur Didot, The Residence
   categoryKey: hospitality
   category: Hospitality
-  photo: main.jpg
 ---
+

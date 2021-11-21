@@ -15,10 +15,10 @@
   <link rel="stylesheet" type="text/css" href="/css/freelance.css">
   <link rel="stylesheet" type="text/css" href="/css/freelance-light.css">
 
-  {{#if og.enable}}
-  <meta property="og:title" content="{{og.title}} - BaBatchasDesignStudio" />
-  <meta property="og:description" content="{{og.description}}" />
-  <meta property="og:image" content="{{data.globals.domain}}/img/{{og.image}}" />
+  {{#if og}}
+  <meta property="og:title" content="{{title}} - BaBatchasDesignStudio" />
+  <meta property="og:description" content="{{description.[0]}}" />
+  <meta property="og:image" content="{{data.globals.domain}}/img/projects/{{key}}/main.jpg" />
   {{/if}}
 </head>
 

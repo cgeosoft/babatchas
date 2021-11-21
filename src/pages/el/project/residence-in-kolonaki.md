@@ -1,16 +1,13 @@
 ---
 layout: project.hbs
+key: residence-in-kolonaki
 lang: el/
 title: Ιδιωτική κατοικία στο Κολωνάκι
 category: Κατοικία
 designers: Γκύζη Νεφέλη, Μακρή Χρυσή
 photography: Ρουφοπούλου Ιωάννα
 pdate: Μάιος.2021
-og:
-  enable: true
-  title: Ιδιωτική κατοικία στο Κολωνάκι
-  description: Η λιθόκτιστη κατοικία στο χωριό Άγιος Ανδρέας του νομού Αρκαδίας σχεδιάστηκε ούτως ώστε να μπορεί να λειτουργήσει αρχικά ως εξοχική κατοικία και αργότερα να μπορέσει να αποτελέσει την κύρια κατοικία των ιδιοκτητών.
-  image: projects/house-sk-arkadia/main.jpg
+og: true
 hasVideo: true
 videoUrl: https://player.vimeo.com/video/621495333
 description:
