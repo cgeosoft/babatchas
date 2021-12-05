@@ -1,6 +1,27 @@
 ---
 layout: press.hbs
 items:
+
+- title: ARCHELLO
+  subtitle: Monsieur Didot, The Residence
+  image: archello_monsieur-didot-the-residence.jpg
+  url: https://archello.com/project/monsieur-didot-the-residence
+
+- title: ARCHELLO
+  subtitle: Private Residence in Kolonaki
+  image: archello_private-residence-in-kolonaki.jpg
+  url: https://archello.com/project/private-residence-in-kolonaki
+
+- title: THE GREEK FOUNDATION
+  subtitle: Private Residence in Kolonaki
+  image: thegreekfoundation-private-residence.jpg
+  url: https://www.thegreekfoundation.com/architecture/interiors/private-residence-in-kolonaki-athens-by-babatchas-design-studio
+
+- title: THE GREEK FOUNDATION
+  subtitle: Monsieur Didot, The Residence 
+  image: thegreekfoundation-monsieur-didot.jpg
+  url: https://www.thegreekfoundation.com/architecture/interiors/monsieur-didot-a-neoclassical-athens-boutique-hotel-by-babatchas-design-studio
+
 - title: AD MAGAZINE RUSSIA
   subtitle: Monsieur Didot, The Residence
   image: ad-magazine-russia.jpg
