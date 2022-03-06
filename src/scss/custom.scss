@@ -1,0 +1,22 @@
+.awards {
+    display: flex;
+    color: grey;
+    margin: 3rem auto 0;
+    opacity: .8;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 900px;
+    flex-wrap: wrap;
+    .award {
+        text-align: center;
+        width: 270px;
+        margin: 1rem;
+        img{
+            height: 70px;
+            margin-bottom: 1rem;
+        }
+        div{
+
+        }
+    }
+}

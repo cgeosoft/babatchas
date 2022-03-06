@@ -1,3 +1,3 @@
-module.exports = function (lvalue, rvalue, ret) {
-    return (lvalue == rvalue) ? ret : '';
-};
+module.exports = function (a, b, options) {
+    return a==b
+}
