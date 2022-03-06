@@ -12,6 +12,7 @@ var registerHelpers = require("metalsmith-register-helpers");
 var data = require('metalsmith-data');
 var paths = require('metalsmith-paths');
 var debug = require('metalsmith-debug');
+var env = require('metalsmith-env');
 
 const metalsmith = new Metalsmith(__dirname)
   .use(debug())
@@ -19,6 +20,7 @@ const metalsmith = new Metalsmith(__dirname)
   .destination('./dist')
   .ignore(["layouts", "static"])
   .clean(true)
+  .use(env())
   .use(moveUp('pages/**/*.md'))
   .use(static([{
     src: "src/static",
