@@ -15,8 +15,10 @@
             height: 70px;
             margin-bottom: 1rem;
         }
-        div{
-
+        
+        &:hover{
+            text-decoration: none;
+            opacity: .8;
         }
     }
 }

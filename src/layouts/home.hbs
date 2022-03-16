@@ -3,14 +3,14 @@
     <div class="container-fluid">
         <div class="opener">
             <div class="hr hr-top"></div>
-            <img class="img-responsive" style="margin: 0 auto;" src="/img/logo.png">
+            <img class="img-responsive" style="margin: 0 auto;max-width: 800px;padding-left: 9%;" src="/img/logo.png">
             <div class="hr hr-bottom"></div>
             <div class="awards">
                 {{#each awards}}
-                <div class="award">
+                <a href="{{url}}" target="_blank" class="award">
                     <img src="/img/awards/{{img}}" alt="">
                     <div>{{{label}}}</div>
-                </div>
+                </a>
                 {{/each}}
             </div>
         </div>
