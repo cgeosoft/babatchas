@@ -1,22 +1,24 @@
 ---
 layout: home.hbs
 awards:
-- img: Architecture-Awards-Logo.png
+- img: build-architecture-awards.png
   url: https://www.build-review.com/winners/babatchas-design-studio
-  label: Best Emerging Interior Design Greece - 2021
-- img: BIGSEE-INTERIOR-DESIGN-AWARD-2020-BLACK-copy.png
+  label: |
+    Best Emerging Interior Design <br>
+    Greece - 2021
+- img: bigsee-interior-design-award.png
   url: https://bigsee.eu/monsieur-didot-boutique-hotel-athens-greece/
   label: | 
-    Best boutique style hotel <br>
-    Monsieur Didot
-- img: Spletna+stran.png
-  url: https://archello.com/project/private-residence-in-kolonaki
-  label: |
     Category: Hospitality <br>
-    Monsieur Didot
-- img: logo-hs-1.png
-  url: https://www.hotelshow.gr/gr/design-awards/participation/226
+    Monsieur Didot, the residence
+- img: archello.png
+  url: https://archello.com/project/private-residence-in-kolonaki
   label: |
     Best Projects of 2021 <br>
     Private residence in Kolonaki
+- img: hotelshow.png
+  url: https://www.hotelshow.gr/gr/design-awards/participation/226
+  label: |
+    Best Boutique Style Hotel <br>
+    Monsieur Didot, the residence
 ---

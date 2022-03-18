@@ -1,16 +1,18 @@
 {{>_start}}
 <main class="main main-full">
     <div class="container-fluid">
-        <div class="opener">
-            <div class="hr hr-top"></div>
-            <img class="img-responsive" style="margin: 0 auto;max-width: 800px;padding-left: 9%;" src="/img/logo.png">
-            <div class="hr hr-bottom"></div>
-            <div class="awards">
+        <div class="hr hr-top"></div>
+        <img class="img-responsive" src="/img/logo.png">
+        <div class="hr hr-bottom"></div>
+        <div class="awards">
+            <div class="row">
                 {{#each awards}}
-                <a href="{{url}}" target="_blank" class="award">
-                    <img src="/img/awards/{{img}}" alt="">
-                    <div>{{{label}}}</div>
-                </a>
+                <div class="col">
+                    <a href="{{url}}" target="_blank" class="award">
+                        <img src="/img/awards/{{img}}" alt="">
+                        <span>{{{label}}}</span>
+                    </a>
+                </div>
                 {{/each}}
             </div>
         </div>
