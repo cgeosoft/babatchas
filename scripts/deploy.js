@@ -41,4 +41,3 @@ ftpDeploy
     .deploy(config)
     .then((res) => console.log("finished:", res))
     .catch((err) => console.log(err))
-    .finally(() => clearInterval(interval));
