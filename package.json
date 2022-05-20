@@ -8,11 +8,11 @@
     "url": "https://cgeosoft.com"
   },
   "scripts": {
-    "start": "run-p build:watch serve",
+    "start": "run-p watch serve",
     "serve": "http-server ./dist",
-    "build": "node build.js",
-    "build:prod": "NODE_ENV=production node build.js",
-    "build:watch": "nodemon"
+    "build": "NODE_ENV=production node build.js",
+    "watch": "nodemon",
+    "deploy":"node ./scripts/deploy.js"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
