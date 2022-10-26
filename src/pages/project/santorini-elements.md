@@ -8,6 +8,5 @@ description:
 - in progress
 photos:
 - "main.jpg"
-- "main.jpg"
 
 ---
