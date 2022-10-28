@@ -1,0 +1,132 @@
+doctype html
+html(lang='en')
+  head
+  meta(charset='utf-8')
+  meta(content='IE=edge' http-equiv='X-UA-Compatible')
+  meta(content='width=device-width, initial-scale=1' name='viewport')
+  meta(content='' name='author')
+  meta(name='robots' content='index,follow')
+  title babatchas.
+  link(href='https://fonts.googleapis.com/css?family=Comfortaa:300|Open+Sans:800&display=swap&subset=greek' rel='stylesheet')
+  link(rel='stylesheet' type='text/css' href='/css/fonts.css')
+  link(rel='stylesheet' type='text/css' href='/css/style.css')
+  link(rel='stylesheet' type='text/css' href='/css/custom.css')
+  link(rel='stylesheet' type='text/css' href='/css/freelance.css')
+  link(rel='stylesheet' type='text/css' href='/css/freelance-light.css')
+  if global.og
+    meta(property='og:title' content=global.title+' - BaBatchasDesignStudio')
+    meta(property='og:description' content=global.description[0])
+    meta(property='og:image' content=global.domain+"/img/projects/"+key+"/main.jpg")
+
+  body
+
+    header.navbar.hidden-md.hidden-lg
+      div
+        a.brand.js-target-scroll(href='/index.html')
+          img(src='/img/logo.png' alt='logo' style='width:246px;')
+        button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#nav-collapse')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        ul.social-list.hidden-xs.hidden-sm
+          li
+            a.fa.fa-facebook(href=global.social.facebook target='_blank')
+          li
+            a.fa.fa-linkedin(href=global.social.linkedin target='_blank')
+          li
+            a.fa.fa-instagram(href=global.social.instagram target='_blank')
+        nav.nav-mobile.hidden-md.hidden-lg
+          #nav-collapse.collapse.navbar-collapse
+            ul.nav-mobile-list
+              each menu in global.menu
+                - var cssClass = menu.name === page ? 'active' : ""
+                li.page(class=cssClass)
+                  a(href="/"+lang+menu.url) #{menu.label}
+              li.text-right
+                a(href='/index.html' style='display:inline-block; padding:1rem') [en]
+                a(href='/el/index.html' style='display:inline-block; padding:1rem') [el]
+
+    header.visible-md.visible-lg.navbar-left
+      .brand-panel
+        a.brand.js-target-scroll(href='/index.html')
+          img(src='/img/logo.png' alt='logo' style='width:246px;')
+      nav.nav-desktop.hidden-xs.hidden-sm
+        ul.nav-desktop-list
+          each menu in global.menu
+            - var cssClass = menu.name === page ? 'active' : ""
+            li.page(class=cssClass)
+              a(href="/"+lang+menu.url) #{menu.label}
+
+      ul.social-list(style='margin-top: 7rem')
+        li
+          a.fa.fa-facebook(href=global.social.facebook target='_blank')
+        li
+          a.fa.fa-linkedin(href=global.social.linkedin target='_blank')
+        li
+          a.fa.fa-instagram(href=global.social.instagram target='_blank')
+      div(style='padding-top:2em')
+        a(href='/index.html') [en]
+        |  |
+        a(href='/el/index.html') [el]
+
+    | !{content}
+
+    script(src='/js/jquery.min.js')
+    script(src='/js/bootstrap.min.js')
+    script(src='/js/smoothscroll.js')
+    script(src='/js/jquery.validate.min.js')
+    script(src='/js/wow.min.js')
+    script(src='/js/jquery.ajaxchimp.min.js')
+    script(src='/js/jquery.stellar.min.js')
+    script(src='/js/jquery.magnific-popup.js')
+    script(src='/js/owl.carousel.min.js')
+    script(src='/js/isotope.pkgd.min.js')
+    script(src='/js/imagesloaded.pkgd.js')
+    script(src='/js/jquery.themepunch.tools.min.js')
+    script(src='/js/jquery.themepunch.revolution.min.js')
+    script(src='/js/revolution.extension.actions.min.js')
+    script(src='/js/revolution.extension.carousel.min.js')
+    script(src='/js/revolution.extension.kenburn.min.js')
+    script(src='/js/revolution.extension.layeranimation.min.js')
+    script(src='/js/revolution.extension.migration.min.js')
+    script(src='/js/revolution.extension.navigation.min.js')
+    script(src='/js/revolution.extension.parallax.min.js')
+    script(src='/js/revolution.extension.slideanims.min.js')
+    script(src='/js/revolution.extension.video.min.js')
+    script(src='/js/interface.js')
+
+    script.
+      document.addEventListener("DOMContentLoaded", function () {
+      var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+      if ("IntersectionObserver" in window) {
+      let lazyImageObserver = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+      let lazyImage = entry.target;
+      lazyImage.src = lazyImage.dataset.src;
+      lazyImage.classList.remove("lazy");
+      lazyImageObserver.unobserve(lazyImage);
+      }
+      });
+      });
+      lazyImages.forEach(function (lazyImage) {
+      lazyImageObserver.observe(lazyImage);
+      });
+      } else {
+      // Possibly fall back to a more compatible method here
+      }
+      });
+
+    script.
+      $(function () {
+        $('.carousel').carousel()
+      });
+
+    if env === "production"
+      script(
+        async=''
+        defer=''
+        data-website-id='20852765-d8c4-4851-8c15-29c5a77869e6'
+        src='https://umami.cgeosoft.com/cgeotrk.js'
+      )

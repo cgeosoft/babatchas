@@ -1,0 +1,12 @@
+---
+layout: layouts/main.pug
+---
+
+.content
+  section#about.section.pb-0
+    .container-fluid
+      .row
+        header.text-center.col-md-8.col-md-offset-2
+          .about-entry.text-center
+            each d in descriptions
+              p #{d}

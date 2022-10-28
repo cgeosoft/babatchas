@@ -1,0 +1,40 @@
+---
+layout: layouts/main.pug
+---
+
+.content
+  section#project-detail.project-details-info
+    .container
+      .row
+        header.text-center.col-md-8.col-md-offset-2
+          h2.section-title #{title}
+    .container(style='max-width: 600px')
+      .row.portfolio-meta(style='margin-bottom: 2rem')
+        .col-sm-6.col-meta
+          h5 Category
+          span #{category}
+        .col-sm-6.col-meta
+          h5 Date
+          span #{pdate}
+      .row.portfolio-meta
+        .col-sm-6.col-meta
+          h5 Designers
+          span #{designers}
+        .col-sm-6.col-meta
+          h5 Photography
+          span #{photography}
+  if hasVideo
+    .container(style='display: flex; justify-content:center')
+      iframe(src=videoUrl width='750' height='422' frameborder='0' style='display:block' allow='autoplay; fullscreen' allowfullscreen='')
+
+  section.section-sm
+    .container
+      .row
+        .col-md-8.col-md-offset-2
+          each d in description
+            p !{d}
+
+  section.section-sm
+    .container
+      each photo in photos
+        img.img-responsive(src='/img/projects/'+key+"/"+photo style='margin-bottom:.25rem')

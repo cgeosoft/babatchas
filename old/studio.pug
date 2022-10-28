@@ -1,6 +1,7 @@
 ---
-layout: studio.hbs
-description:
+layout: layouts/main.pug
+permalink: studio.html
+descriptions:
 - BaBatchas Design Studio is an interior design office located in Athens, Greece,
   specializing in the study of private residents, luxury accommodation and commercial
   spaces while at the same time creating design objects, custom made furniture and
@@ -22,3 +23,12 @@ description:
   reforming interior design suggestions that create a warm familiar feeling spiced
   up by a fresh and contemporary outtake.
 ---
+
+.content
+  section#about.section.pb-0
+    .container-fluid
+      .row
+        header.text-center.col-md-8.col-md-offset-2
+          .about-entry.text-center
+            each d in descriptions
+              p #{d}

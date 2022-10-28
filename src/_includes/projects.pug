@@ -1,0 +1,24 @@
+---
+layout: layouts/main.pug
+---
+
+.content(style='margin-top:70px')
+  section.porftolio
+    .container-fluid
+      ul.filter
+        li
+          a(href='#' data-filter='*') #{filtersAll}
+        each filter in filters
+          li
+            a(href='#' data-filter='.'+filter.key) #{filter.label}
+    .isotope
+      each project in projects
+        .isotope-item(class=project.categoryKey)
+          a(href='/'+lang+'project/'+project.name+'.html' title=project.title)
+            figure.showcase-item
+              .showcase-item-thumbnail
+                img(alt='' src='/img/projects/'+project.name+'/main.jpg')
+              figcaption.showcase-item-hover.dark
+                .showcase-item-info
+                  .showcase-item-category #{project.title}
+                  .showcase-item-title #{project.category}

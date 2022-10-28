@@ -1,0 +1,16 @@
+domain: https://babatchas.com
+social:
+  facebook: https://www.facebook.com/Babatchasdesignstudio-100452341363908/
+  linkedin: https://linkedin.com
+  instagram: https://www.instagram.com/babatchasdesignstudio/
+menu:
+- label: Home
+  url: index.html
+- label: Studio
+  url: studio.html
+- label: Projects
+  url: projects.html
+- label: Press
+  url: press.html
+- label: Contact
+  url: contact.html

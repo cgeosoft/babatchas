@@ -1,0 +1,35 @@
+---
+layout: layouts/main.pug
+---
+
+.content
+  section#contact.contacts(style='padding-top:7.1em;')
+    .container-fluid
+      .row
+        header.text-center.col-md-8.col-md-offset-2
+          h2.section-title-2 babatchas.
+    section.section.bg-light
+      .container-fluid
+        .row.row-base
+          .col-md-4.col-base.address-item.address-fl-item
+            i.icon.ion-ios-email-outline
+            .address-title info@babatchas.com
+          .col-md-4.col-base.address-item.address-fl-item
+            i.icon.ion-iphone
+            .address-title +30 6979 28 33 63
+            .address-title nefeli@babatchas.com
+          .col-md-4.col-base.address-item.address-fl-item
+            i.icon.ion-iphone
+            .address-title +30 6944 44 33 47
+            .address-title chrysi@babatchas.com
+  section.section
+    .container-fluid
+      form(action='https://formspree.io/f/xbjpnrqz' method='POST')
+        .col-sm-6.form-group
+          input(type='text' name='name' placeholder='Name')
+        .col-sm-6.form-group
+          input(type='email' name='email' required='' placeholder='Email *')
+        .col-sm-12.form-group
+          textarea(rows='3' name='message' placeholder='Message')
+        .text-right
+          input.btn.btn-dark(type='submit' value='Send')

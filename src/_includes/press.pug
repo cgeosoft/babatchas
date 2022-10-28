@@ -1,0 +1,17 @@
+---
+layout: layouts/main.pug
+---
+
+.content(style='margin-top:70px')
+  section.porftolio
+    .isotope
+      each item in items
+        .isotope-item
+          a(href=item.url title=item.title target='_blank')
+            figure.showcase-item
+              .showcase-item-thumbnail
+                img(alt=item.title src='/img/press/'+item.image)
+              figcaption.showcase-item-hover.dark
+                .showcase-item-info
+                  .showcase-item-category #{item.title}
+                  .showcase-item-title #{item.subtitle}
