@@ -1,5 +1,6 @@
 ---
-layout: home.hbs
+layout: index.pug
+permalink: el/index.html
 lang: el/
 awards:
 - img: build-architecture-awards.png

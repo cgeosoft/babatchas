@@ -6,7 +6,7 @@ key: santorini-elements
 title: Santorini Elements, Boutique Hotel
 category: Hospitality
 og: true
-description:
+descriptions:
 - in progress
 photos:
 - "main.jpg"

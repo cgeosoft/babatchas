@@ -23,18 +23,20 @@ layout: layouts/main.pug
         .col-sm-6.col-meta
           h5 Photography
           span #{photography}
-  if hasVideo
+
+  if video
     .container(style='display: flex; justify-content:center')
-      iframe(src=videoUrl width='750' height='422' frameborder='0' style='display:block' allow='autoplay; fullscreen' allowfullscreen='')
+      iframe(src=video width='750' height='422' frameborder='0' style='display:block' allow='autoplay; fullscreen' allowfullscreen='')
 
   section.section-sm
     .container
       .row
         .col-md-8.col-md-offset-2
-          each d in description
+          each d in descriptions
             p !{d}
 
   section.section-sm
     .container
       each photo in photos
-        img.img-responsive(src='/img/projects/'+key+"/"+photo style='margin-bottom:.25rem')
+        a(href='/img/projects/'+key+"/"+photo target="_blank" style="margin-bottom: 1rem; display: block")
+          img.img-responsive(src='/img/projects/'+key+"/"+photo style="margin: 0 auto")

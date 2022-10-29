@@ -9,7 +9,8 @@ designers: Gkyzi Nefeli, Makri Chrysi
 photography: Mia Dorier Creative Agency, Iatropoulou Mirto
 pdate: March 2022
 og: true
-description:
+video: https://player.vimeo.com/video/764122521
+descriptions:
     - Located in Meteora, Greece, The Storyteller Boutique Hotel was recently designed by the Babatchas Design Studio team. An inspirational project that pairs picturesque elements of the unique landscape with the spirituality of monastic life. 
     - The Storyteller Boutique Hotel building is found next to the city hall and the city's municipal library. Five different earth-toned rooms, inspired by the incomparably beautiful landscape of Meteora, were carved by the design team into a new – built structure. The hotel is characterized by a warm, homely feeling brought out in the main common space that  resembles a residential living room. Ideal for hosting moments of relaxation throughout the day, the familiar, family atmosphere is completed with an open kitchen view, where a rich breakfast is prepared daily in front of the guests' eyes. 
     - In this particular project, the Babatchas Design Studio team borrowed elements from monastic everyday life, such as the materials and color tones used in the acclaimed monasteries of Meteora. "Our goal was to connect the interior design with the local landscape. We decided to research the essence of the regional monastic aesthetics and found it in the morphological balance between Byzantine wealth and ascetic austerity," says the design team. Linens, stonewashed cottons and carpeted cushions dress the rooms while brushed oak surfaces and Perla and Boticcino marbles dominate the different spaces. 

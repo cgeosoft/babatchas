@@ -6,7 +6,7 @@ key: peribanu
 title: Peribanu Boutique Hotel
 category: Residential
 og: true
-description:
+descriptions:
 - in progress
 photos:
 - "main.jpg"

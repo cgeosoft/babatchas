@@ -1,5 +1,5 @@
 ---
-layout: project.hbs
+layout: project.pug
 permalink: el/project/kafeneio-gakias.html
 lang: "el/"
 key: kafeneio-gakias
@@ -9,7 +9,7 @@ designers: Μακρή Χρυσή, Τζάλλα Λένα
 photography: Μακρή Χρυσή, Τζάλλα Λένα
 pdate: Ιούνιος.2017
 og: true
-description:
+descriptions:
 - 'Το ακίνητο που επιλέχθηκε για την στέγαση της επιχείρησης λειτουργούσε στις αρχές
   του 1900 ως άτυπο παραδοσιακό μαγειρείο. Με συνεχόμενες προσθήκες πάνω στο αρχικό
   κτίσμα, το οποίο ήταν ένα προσφυγικό καμαράκι, συμπληρώθηκε η δεύτερη σάλα, η μικρή

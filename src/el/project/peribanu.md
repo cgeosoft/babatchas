@@ -1,12 +1,12 @@
 ---
-layout: project.hbs
+layout: project.pug
 permalink: el/project/peribanu.html
 key: peribanu
 lang: el/
 title: Peribanu Boutique Hotel
 category: Κατοικία
 og: true
-description:
+descriptions:
 - σε εξέλιξη
 photos:
 - "main.jpg"

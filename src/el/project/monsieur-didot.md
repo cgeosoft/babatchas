@@ -1,5 +1,5 @@
 ---
-layout: project.hbs
+layout: project.pug
 permalink: el/project/monsieur-didot.html
 lang: el/
 key: monsieur-didot
@@ -9,9 +9,8 @@ designers: Γκύζη Νεφέλη, Μακρή Χρυσή
 photography: Ρουφοπούλου Ιωάννα
 pdate: Σεπτέμβριος.2019
 og: true
-hasVideo: true
-videoUrl: https://player.vimeo.com/video/487389633
-description:
+video: https://player.vimeo.com/video/487389633
+descriptions:
 - 'Το ΒaBatchas Design Studio προσέγγισε την ιδέα της αναγέννησης του νεοκλασικού
   κτιρίου επί της οδού Διδότου, με ιδιαίτερο σεβασμό ως προς την διατήρηση του χαρακτήρα
   αλλά και την επαναδιαπραγμάτευση των εκλεκτιστικών στοιχείων, τα οποία συνθέτουν

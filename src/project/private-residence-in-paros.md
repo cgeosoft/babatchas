@@ -6,7 +6,7 @@ key: private-residence-in-paros
 title: Private residence in Paros
 category: Residential
 og: true
-description:
+descriptions:
 - in progress
 photos:
 - "main.jpg"

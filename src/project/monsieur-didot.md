@@ -9,9 +9,8 @@ designers: Gkyzi Nefeli, Makri Chrysi
 photography: Roufopoulou Ioanna
 pdate: September.2019
 og: true
-hasVideo: true
-videoUrl: https://player.vimeo.com/video/487389633
-description:
+video: https://player.vimeo.com/video/487389633
+descriptions:
 - Babatchas design studio began exploring the design of this building with outmost
   respect for its neoclassical architectural routes. With the determination to preserve,
   rethink and comply with the elements that define similar eclectic interiors, the

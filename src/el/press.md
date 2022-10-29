@@ -1,5 +1,6 @@
 ---
-layout: press.hbs
+layout: press.pug
+permalink: el/press.html
 lang: el/
 items:
 - title: ARCHELLO

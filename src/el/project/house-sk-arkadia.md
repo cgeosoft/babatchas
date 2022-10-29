@@ -1,16 +1,15 @@
 ---
-layout: project.hbs
+layout: project.pug
 permalink: el/project/house-sk-arkadia.html
 lang: "el/"
 key: house-sk-arkadia
-lang: el/
 title: Κατοικία ΣΚ, Αρκαδία
 category: Κατοικία
 designers: Μακρή Χρυσή
 photography: Μακρή Χρυσή, Τζάλλα Λένα
 pdate: Απρίλιος.2013
 og: true
-description:
+descriptions:
 - Η λιθόκτιστη κατοικία στο χωριό Άγιος Ανδρέας του νομού Αρκαδίας σχεδιάστηκε ούτως
   ώστε να μπορεί να λειτουργήσει αρχικά ως εξοχική κατοικία και αργότερα να μπορέσει
   να αποτελέσει την κύρια κατοικία των ιδιοκτητών. Η μελετητική κατεύθυνση που ακολουθήθηκε,

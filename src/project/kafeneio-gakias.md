@@ -9,7 +9,7 @@ designers: Makri Chrysi, Tzalla Lena
 photography: Makri Chrysi, Tzalla Lena
 pdate: June.2017
 og: true
-description:
+descriptions:
 - 'This project targeted a 1900’s building, initially run as a small, low-key tavern.
   In the course of time, a number of alterations were introduced to the pre-existing
   main area, expanding the building to its garden’s perimeter. A secondary room was

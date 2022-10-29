@@ -6,7 +6,7 @@ key: private-residence-in-kardiani
 title: Private residence in Kardiani, Tinos
 category: Residential
 og: true
-description:
+descriptions:
 - in progress
 photos:
 - "main.jpg"

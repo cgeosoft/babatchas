@@ -9,7 +9,7 @@ designers: Makri Chrysi
 photography: Makri Chrysi, Tzalla Lena
 pdate: April.2013
 og: true
-description:
+descriptions:
 - The owners of this stone-build residence located in the village of Agios Andreas
   in Arcadia Province, appointed BaΒatchas to design a holiday retreat, that could
   also work as the main residence. The aesthetic direction given was not to stir away
