@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const path = require("path");
 const FtpDeploy = require("ftp-deploy");
 const ftpDeploy = new FtpDeploy();
@@ -5,10 +7,10 @@ const ftpDeploy = new FtpDeploy();
 const config = {
   user: "j14949nefe",
   // Password optional, prompted if none given
-  password: "rZ!8?f3HD*",
+  password: "mac9bvz5ofmay9jsjw4z5dzxs2ud65",
   host: "ftp.babatchas.com",
   port: 21,
-  localRoot: path.normalize(path.join(__dirname + "/dist")),
+  localRoot: path.resolve("dist"),
   remoteRoot: "/httpdocs",
   // remoteRoot: "/test",
   include: ["*", "**/*"],      // this would upload everything except dot files
@@ -28,13 +30,14 @@ const config = {
   sftp: false,
 };
 
+console.log(`Deploying to ${config.host} from ${config.localRoot}`);
 
 ftpDeploy.on("uploading", (data) => {
   console.log(`${data.transferredFileCount}/${data.totalFilesCount}\t${Math.floor(data.transferredFileCount * 100 / data.totalFilesCount)}%`)
 });
 
 ftpDeploy.on("upload-error", (data) => {
-  console.log(data.err); // data will also include filename, relativePath, and other goodies
+  console.log(`Error: ${data.err}`);
 });
 
 ftpDeploy

@@ -33,6 +33,6 @@ main.main
       .row
         each award in awards
           .col-md-6
-            a.award(href=url target='_blank')
+            a.award(href=award.url target='_blank')
               img(src='/img/awards/'+award.img alt='')
               span !{award.label}
