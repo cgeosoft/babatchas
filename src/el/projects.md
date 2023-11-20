@@ -12,25 +12,25 @@ filters:
   label: ΚΑΤΑΣΤΗΜΑΤΑ
 projects:
 
-- name: private-residence-in-kardiani
-  title: Ιδιωτική κατοικία στην Καρδιανή, Τήνο
-  categoryKey: κατοικία
-  category: Κατοικία
+# - name: private-residence-in-kardiani
+#   title: Ιδιωτική κατοικία στην Καρδιανή, Τήνο
+#   categoryKey: κατοικία
+#   category: Κατοικία
 
 - name: private-residence-in-paros
   title: Ιδιωτική κατοικία στην Πάρο
   categoryKey: κατοικία
-  category: Κατοικία
+  category: Υπο Κατασκευή
 
 - name: peribanu
   title: Peribanu Boutique Hotel
   categoryKey: hospitality
-  category: Hospitality
+  category: Υπο Κατασκευή
 
 - name: santorini-elements
   title: Santorini Elements, Boutique Hotel
   categoryKey: hospitality
-  category: Hospitality
+  category: Υπο Κατασκευή
 
 - name: the-storyteller
   title: The Storyteller, Boutique Hotel
