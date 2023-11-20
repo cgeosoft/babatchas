@@ -3,36 +3,37 @@ layout: layouts/main.pug
 awards:
 - img: build-architecture-awards.png
   url: https://www.build-review.com/winners/babatchas-design-studio
-  label: |
-    Best Emerging Interior Design <br>
-    Greece - 2021
+  title: "Best Emerging Interior Design"
+  category: "Greece - 2021"
 - img: bigsee-interior-design-award.png
   url: https://bigsee.eu/monsieur-didot-boutique-hotel-athens-greece/
-  label: |
-    Category: Hospitality <br>
-    Monsieur Didot, the residence
-- img: archello.png
-  url: https://archello.com/project/private-residence-in-kolonaki
-  label: |
-    Best Projects of 2021 <br>
-    Private residence in Kolonaki
+  title: "Category: Hospitality"
+  category: "Monsieur Didot, the residence"
 - img: hotelshow.png
   url: https://www.hotelshow.gr/gr/design-awards/participation/226
-  label: |
-    Best Boutique Style Hotel <br>
-    Monsieur Didot, the residence
+  title: "Best Boutique Style Hotel"
+  category: "Monsieur Didot, the residence"
+- img: archello.png
+  url: https://archello.com/project/private-residence-in-kolonaki
+  title: "Best Projects of 2021"
+  category: "Private residence in Kolonaki"
 ---
 
 main.main
   .intro
     .hidden-xs.hidden-sm
-      .hr.hr-top
-      img.logo.img-responsive(src='/img/logo.png')
-      .hr.hr-bottom
+      img(
+        style="width:100px;margin:0 auto;display:block;"
+        src='/img/logo-sm.png')
+      .hr.hr-bottom(
+        style="width:150px"
+      )
     .awards
       .row
         each award in awards
           .col-md-6
             a.award(href=award.url target='_blank')
-              img(src='/img/awards/'+award.img alt='')
-              span !{award.label}
+              .logo
+                img(src='/img/awards/'+award.img alt='')
+              .title !{award.title}
+              .category !{award.category}

@@ -3,11 +3,11 @@ layout: studio.pug
 permalink: studio.html
 lang: ""
 descriptions:
-  - BaBatchas Design Studio is an interior design office located in Athens, Greece,
+  - Babatchas Design Studio is an interior design office located in Athens, Greece,
     specializing in the study of private residents, luxury accommodation and commercial
     spaces while at the same time creating design objects, custom made furniture and
     pieces of art. Chrysi Makri and Nefeli Gkyzi are the co-founders and creative directors
-    of BaBatchas Design Studio.
+    of Babatchas Design Studio.
   - Chrysi is an interior architect with an over a decade experience in high end residential
     and hospitality projects around the world, as well as commercial ones. After a successful
     career in the UK, she returned to Greece to focus on five star hospitality projects

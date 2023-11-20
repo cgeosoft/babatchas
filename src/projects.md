@@ -13,22 +13,18 @@ filters:
     label: COMMERCIAL
 
 projects:
-  - name: private-residence-in-kardiani
-    title: Private residence in Kardiani, Tinos
-    categoryKey: residential
-    category: Residential
   - name: private-residence-in-paros
     title: Private residence in Paros
     categoryKey: residential
-    category: Residential
+    category: In Progress
   - name: peribanu
     title: Peribanu Boutique Hotel
     categoryKey: hospitality
-    category: Hospitality
+    category: In Progress
   - name: santorini-elements
     title: Santorini Elements, Boutique Hotel
     categoryKey: hospitality
-    category: Hospitality
+    category: In Progress
   - name: the-storyteller
     title: The Storyteller, Boutique Hotel
     categoryKey: hospitality

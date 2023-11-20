@@ -6,7 +6,12 @@ layout: layouts/main.pug
   section#about.section.pb-0
     .container-fluid
       .row
-        header.text-center.col-md-8.col-md-offset-2
-          .about-entry.text-center
+        .col-md-8.col-md-offset-2
+          img(
+            class="img-responsive"
+            style="max-width: 60%;margin:0 auto 4rem; border-radius: 0;"
+            src="/img/about.jpg"
+          )
+          .about-entry
             each d in descriptions
               p #{d}
