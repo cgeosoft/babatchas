@@ -13,18 +13,52 @@ filters:
     label: COMMERCIAL
 
 projects:
+  - name: aegina
+    title: Aegina
+    categoryKey: in-progress
+    category: In Progress
+  - name: agios-romanos
+    title: Agios Romanos
+    categoryKey: in-progress
+    category: In Progress
+  - name: athens-law-firm
+    title: Athens Law Firm
+    categoryKey: in-progress
+    category: In Progress
+  - name: erithraia
+    title: Erithraia
+    categoryKey: in-progress
+    category: In Progress
+  - name: kardiani
+    title: Kardiani
+    categoryKey: in-progress
+    category: In Progress
+  - name: naxos
+    title: Naxos
+    categoryKey: in-progress
+    category: In Progress
+  - name: tinos-hotel
+    title: Tinos Hotel
+    categoryKey: in-progress
+    category: In Progress
+  - name: tinos-law-firm
+    title: Tinos Law Firm
+    categoryKey: in-progress
+    category: In Progress
+
   - name: private-residence-in-paros
     title: Private residence in Paros
-    categoryKey: residential
+    categoryKey: in-progress
     category: In Progress
   - name: peribanu
     title: Peribanu Boutique Hotel
-    categoryKey: hospitality
+    categoryKey: in-progress
     category: In Progress
   - name: santorini-elements
     title: Santorini Elements, Boutique Hotel
-    categoryKey: hospitality
+    categoryKey: in-progress
     category: In Progress
+    
   - name: the-storyteller
     title: The Storyteller, Boutique Hotel
     categoryKey: hospitality
