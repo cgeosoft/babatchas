@@ -90,7 +90,6 @@
             $('.filter .active').removeClass('active');
             $(this).closest('li').addClass('active');
             var selector = $(this).attr('data-filter');
-            console.log(selector, "filter selector", "[data-filter='"+selector+"']" )
             $('.isotope').isotope({
                 filter: selector !== "*" ? "[data-filter='"+selector+"']" : '*',
                 animationOptions: {
