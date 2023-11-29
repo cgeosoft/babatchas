@@ -77,12 +77,12 @@
     $('.isotope').each(function () {
         var $container = $(this);
         $container.imagesLoaded(function () {
-            $container.isotope({
-                itemSelector: '.isotope-item',
-                percentPosition: true,
-                layoutMode: 'masonry',
-                masonry: { columnWidth: '.isotope-item' }
-            });
+          $container.isotope({
+              itemSelector: '.isotope-item',
+              percentPosition: true,
+              layoutMode: 'masonry',
+              masonry: { columnWidth: '.isotope-item' }
+          });
         });
     });
     $('.filter li a').on('click',
