@@ -1,7 +1,7 @@
 ---
 layout: press.pug
 permalink: press.html
-lang: ""
+lang: en
 items:
 
 - title: ARCHELLO

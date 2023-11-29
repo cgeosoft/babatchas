@@ -1,10 +1,11 @@
 ---
 layout: project.pug
 permalink: el/project/kafeneio-gakias.html
-lang: "el/"
+date: 2021-01-01
+lang: el
 key: kafeneio-gakias
 title: Παραδοσιακό καφενείο "Γάκιας"
-category: Καταστήματα
+category: επαγγ. χωροι
 designers: Μακρή Χρυσή, Τζάλλα Λένα
 photography: Μακρή Χρυσή, Τζάλλα Λένα
 pdate: Ιούνιος.2017

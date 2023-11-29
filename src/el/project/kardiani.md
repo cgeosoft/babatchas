@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: el/project/kardiani.html
-lang: el/
+date: 2021-01-01
+lang: el
 key: kardiani
 title: Καρδιανή
-category: Residential
+category: Κατοικια
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

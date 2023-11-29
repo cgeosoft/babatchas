@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: el/project/tinos-law-firm.html
-lang: el/
+date: 2021-01-01
+lang: el
 key: tinos-law-firm
-title: Νομικό Γραφείο στην Τήνο
-category: Residential
+title: Δικηγορικό γραφείο στην Τήνο
+category: επαγγ. χωροι
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

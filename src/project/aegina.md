@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: project/aegina.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: aegina
-title: Aegina
-category: Residential
+title: Aegina Boutique Hotel
+category: Hospitality
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

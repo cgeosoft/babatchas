@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: el/project/erithraia.html
-lang: el/
+date: 2021-01-01
+lang: el
 key: erithraia
-title: Ερυθραία
-category: Residential
+title: Ιδιωτική κατοικία στην Νέα Ερυθραία, Αττική
+category: Κατοικια
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

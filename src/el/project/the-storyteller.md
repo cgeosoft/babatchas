@@ -1,10 +1,11 @@
 ---
 layout: project.pug
 permalink: el/project/the-storyteller.html
+date: 2021-01-01
 key: the-storyteller
-lang: el/
+lang: el
 title: The Storyteller, Boutique Hotel
-category: Κατοικία
+category: Ξενοδοχειακo
 designers: Γκύζη Νεφέλη, Μακρή Χρυσή
 photography: Mia Dorier Creative Agency, Ιατροπούλου Μυρτώ
 pdate: Μάρτιος 2022

@@ -1,22 +1,26 @@
 ---
 layout: layouts/main.pug
 awards:
+- img: bigsee-interior-design-award.png
+  url: /project/the-storyteller.html
+  title: "Category: Hospitality"
+  subtitle: "The Storyteller, Boutique Hotel"
 - img: build-architecture-awards.png
   url: https://www.build-review.com/winners/babatchas-design-studio
   title: "Best Emerging Interior Design"
-  category: "Greece - 2021"
+  subtitle: "Greece - 2021"
 - img: bigsee-interior-design-award.png
   url: https://bigsee.eu/monsieur-didot-boutique-hotel-athens-greece/
   title: "Category: Hospitality"
-  category: "Monsieur Didot, the residence"
+  subtitle: "Monsieur Didot, the residence"
 - img: hotelshow.png
   url: https://www.hotelshow.gr/gr/design-awards/participation/226
   title: "Best Boutique Style Hotel"
-  category: "Monsieur Didot, the residence"
+  subtitle: "Monsieur Didot, the residence"
 - img: archello.png
   url: https://archello.com/project/private-residence-in-kolonaki
   title: "Best Projects of 2021"
-  category: "Private residence in Kolonaki"
+  subtitle: "Private residence in Kolonaki"
 ---
 
 main.main
@@ -36,4 +40,4 @@ main.main
               .logo
                 img(src='/img/awards/'+award.img alt='')
               .title !{award.title}
-              .category !{award.category}
+              .subtitle !{award.subtitle}

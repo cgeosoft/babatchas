@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: project/agios-romanos.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: agios-romanos
-title: Agios Romanos
+title: Private residence in Tinos
 category: Residential
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

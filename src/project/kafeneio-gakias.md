@@ -1,7 +1,8 @@
 ---
 layout: project.pug
 permalink: project/kafeneio-gakias.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: kafeneio-gakias
 title: Traditional coffeehouse "Gakias"
 category: Commercial
@@ -46,7 +47,7 @@ photos:
 - 05.jpg
 - 06.jpg
 - 07.jpg
-- '08.jpg'
-- '09.jpg'
+- 08.jpg
+- 09.jpg
 - 10.jpg
 ---

@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: el/project/aegina.html
-lang: el/
+date: 2021-01-01
+lang: el
 key: aegina
-title: Αίγινα
-category: Residential
+title: Boutique Hotel στην Αίγινα
+category: Ξενοδοχειακo
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

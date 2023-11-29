@@ -1706,12 +1706,21 @@ label.error {
 .showcase-item-category {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
-	font-size: 1.7em;
+	font-size: 1.4em;
 	letter-spacing: 0.2em;
 }
 
 .showcase-item-title {
 	font-size: 1.2em;
+}
+
+.showcase-item-description {
+  margin-top: .7rem;
+  opacity: .7;
+	font-size: .8em;
+	border: solid 1px white;
+  border-radius: 1rem;
+  padding: .1rem;
 }
 
 .showcase-item:hover .showcase-item-hover {

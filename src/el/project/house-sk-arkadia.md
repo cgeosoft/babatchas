@@ -1,10 +1,11 @@
 ---
 layout: project.pug
 permalink: el/project/house-sk-arkadia.html
-lang: "el/"
+date: 2021-01-01
+lang: el
 key: house-sk-arkadia
-title: Κατοικία ΣΚ, Αρκαδία
-category: Κατοικία
+title: Κατοικια ΣΚ, Αρκαδία
+category: Κατοικια
 designers: Μακρή Χρυσή
 photography: Μακρή Χρυσή, Τζάλλα Λένα
 pdate: Απρίλιος.2013

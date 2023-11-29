@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: project/naxos.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: naxos
-title: Naxos
+title: Private residence in Naxos
 category: Residential
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

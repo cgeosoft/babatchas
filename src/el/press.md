@@ -1,7 +1,7 @@
 ---
 layout: press.pug
 permalink: el/press.html
-lang: el/
+lang: el
 items:
 - title: ARCHELLO
   subtitle: Monsieur Didot, The Residence

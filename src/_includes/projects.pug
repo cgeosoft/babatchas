@@ -2,19 +2,34 @@
 layout: layouts/main.pug
 ---
 
+-
+  var lang = page.lang || "en"
+  var projects = collections.project
+    .filter(p => p.data.lang === lang)
+    .map(p => ({
+        ...p.data,
+        name: p.fileSlug
+    }))
+  projects = projects.sort((a,b) => a.date - b.date)
+  var filters = projects.reduce((acc, p) => {
+    if (acc.find(x=>x===p.category)) return acc
+    acc.push(p.category)
+    return acc
+  }, [])
+
 .content(style='margin-top:70px')
   section.porftolio
     .container-fluid
       ul.filter
         li
-          a(href='#' data-filter='*') #{filtersAll}
+          a(href='#' data-filter='*') #{labelAll}
         each filter in filters
           li
-            a(href='#' data-filter='.'+filter.key) #{filter.label}
+            a(href='#' data-filter=filter) #{filter}
     .isotope
       each project in projects
-        .isotope-item(class=project.categoryKey)
-          a(href='/'+lang+'project/'+project.name+'.html' title=project.title)
+        .isotope-item(data-filter=project.category)
+          a(href= (lang!=="en" ? '/'+lang : '') +'/project/'+project.name+'.html' title=project.title)
             figure.showcase-item
               .showcase-item-thumbnail
                 img(alt='' src='/img/projects/'+project.name+'/main.jpg')
@@ -22,3 +37,5 @@ layout: layouts/main.pug
                 .showcase-item-info
                   .showcase-item-category #{project.title}
                   .showcase-item-title #{project.category}
+                  if project.in_progress
+                    .showcase-item-description #{translations[lang].in_progress}

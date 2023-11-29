@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: el/project/naxos.html
-lang: el/
+date: 2021-01-01
+lang: el
 key: naxos
-title: Νάξος
-category: Residential
+title: Ιδιωτική κατοικία στην Νάξο
+category: Κατοικια
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

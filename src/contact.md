@@ -1,5 +1,5 @@
 ---
 layout: contact.pug
 permalink: contact.html
-lang: ""
+lang: en
 ---

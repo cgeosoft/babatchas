@@ -1,7 +1,8 @@
 ---
 layout: project.pug
 permalink: project/residence-in-kolonaki.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: residence-in-kolonaki
 title: Private residence in Kolonaki
 category: Residential

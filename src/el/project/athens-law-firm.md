@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: el/project/athens-law-firm.html
-lang: el/
+date: 2021-01-01
+lang: el
 key: athens-law-firm
-title: Nομικό Γραφείο Αθήνα
-category: Residential
+title: Δικηγορικό γραφείο στα Εξάρχεια, Αττική
+category: επαγγ. χωροι
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: project/tinos-law-firm.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: tinos-law-firm
 title: Tinos Law Firm
-category: Residential
+category: Commercial
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

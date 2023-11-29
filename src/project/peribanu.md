@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: project/peribanu.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: peribanu
 title: Peribanu Boutique Hotel
-category: Residential
+category: Hospitality
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 

@@ -1,7 +1,8 @@
 ---
 layout: project.pug
 permalink: project/the-storyteller.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: the-storyteller
 title: The Storyteller, Boutique Hotel
 category: Hospitality

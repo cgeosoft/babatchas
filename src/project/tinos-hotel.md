@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: project/tinos-hotel.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: tinos-hotel
-title: Tinos Hotel
-category: Residential
+title: Tinos Boutique Hotel
+category: Hospitality
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 ---

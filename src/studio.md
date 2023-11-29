@@ -1,7 +1,7 @@
 ---
 layout: studio.pug
 permalink: studio.html
-lang: ""
+lang: en
 descriptions:
   - Babatchas Design Studio is an interior design office located in Athens, Greece,
     specializing in the study of private residents, luxury accommodation and commercial

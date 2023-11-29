@@ -1,10 +1,11 @@
 ---
 layout: project.pug
 permalink: project/monsieur-didot.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: monsieur-didot
 title: Monsieur Didot, The Residence
-category: Hospitality
+category: Residential
 designers: Gkyzi Nefeli, Makri Chrysi
 photography: Roufopoulou Ioanna
 pdate: September.2019

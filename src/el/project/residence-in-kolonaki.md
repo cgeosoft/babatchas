@@ -1,10 +1,11 @@
 ---
 layout: project.pug
 permalink: el/project/residence-in-kolonaki.html
+date: 2021-01-01
 key: residence-in-kolonaki
-lang: el/
+lang: el
 title: Ιδιωτική κατοικία στο Κολωνάκι
-category: Κατοικία
+category: Κατοικια
 designers: Γκύζη Νεφέλη, Μακρή Χρυσή
 photography: Ρουφοπούλου Ιωάννα
 pdate: Μάιος.2021

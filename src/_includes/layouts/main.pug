@@ -40,7 +40,7 @@ html(lang='en')
               each menu in global.menu
                 - var cssClass = menu.name === page ? 'active' : ""
                 li.page(class=cssClass)
-                  a(href="/"+lang+menu.url) #{menu.label}
+                  a(href= (lang !=='en' ? '/'+lang : '' ) + '/' + menu.url) #{menu.label}
               li.text-right
                 a(href='/index.html' style='display:inline-block; padding:1rem') [en]
                 a(href='/el/index.html' style='display:inline-block; padding:1rem') [el]
@@ -54,7 +54,7 @@ html(lang='en')
           each menu in global.menu
             - var cssClass = menu.name === page ? 'active' : ""
             li.page(class=cssClass)
-              a(href="/"+lang+menu.url) #{menu.label}
+              a(href= (lang !=='en' ? '/'+lang : '' ) + '/' + menu.url) #{menu.label}
 
       ul.social-list(style='margin-top: 7rem')
         li

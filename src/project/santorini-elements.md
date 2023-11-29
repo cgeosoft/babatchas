@@ -1,13 +1,13 @@
 ---
 layout: project.pug
 permalink: project/santorini-elements.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: santorini-elements
 title: Santorini Elements, Boutique Hotel
 category: Hospitality
 og: true
-descriptions:
-- in progress
+in_progress: true
 photos:
 - "main.jpg"
 

@@ -1,7 +1,8 @@
 ---
 layout: project.pug
 permalink: project/house-sk-arkadia.html
-lang: ""
+date: 2021-01-01
+lang: en
 key: house-sk-arkadia
 title: House SK, Arkadia
 category: Residential
