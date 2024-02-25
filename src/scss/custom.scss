@@ -60,16 +60,26 @@
 
 .main {
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: auto;
+    overflow-y: auto;
     .intro {
-        margin: 2rem;
+        padding: 2rem 0;
         max-width: 600px;
-        padding-top: 0rem;
-        @media (max-width: 768px) {
-          padding-top: 12rem;
+        margin: 0 auto;
+        .intro-logo{
+          width: 100px;
+          margin: 0 auto;
+          display:block;
+          padding: 3rem 0 0;
+        }
+        .awards{
+          .award{
+              width: 50%;
+            display: inline-block;
+            padding: .5rem;
+            @media (max-width: 768px) {
+              width: 100%;
+            }
+          }
         }
     }
 }
@@ -78,7 +88,6 @@
   @media (max-width: 768px) {
     background-color: #FFF;
   }
-
 }
 
 .isotope-item{

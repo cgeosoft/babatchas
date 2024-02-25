@@ -1,6 +1,10 @@
 ---
 layout: layouts/main.pug
 awards:
+- img: grail.png
+  url: https://grailawards.gr/submission/207
+  title: "Merit in Interior Design"
+  subtitle: "The Storyteller, Boutique Hotel"
 - img: hotelshow.png
   url: /project/the-storyteller.html
   title: "Best Boutique Style Hotel"
@@ -25,19 +29,12 @@ awards:
 
 main.main
   .intro
-    .hidden-xs.hidden-sm
-      img(
-        style="width:100px;margin:0 auto;display:block;"
-        src='/img/logo-sm.png')
-      .hr.hr-bottom(
-        style="width:150px"
-      )
+    img(class="intro-logo" src='/img/logo-sm.png')
+    .hr.hr-bottom(style="width:150px")
     .awards
-      .row
-        each award in awards
-          .col-md-6
-            a.award(href=award.url target='_blank')
-              .logo
-                img(src='/img/awards/'+award.img alt='')
-              .title !{award.title}
-              .subtitle !{award.subtitle}
+      each award in awards
+        a.award(href=award.url target='_blank')
+          .logo
+            img(src='/img/awards/'+award.img alt='')
+          .title !{award.title}
+          .subtitle !{award.subtitle}
