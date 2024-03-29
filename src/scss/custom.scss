@@ -11,8 +11,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 1rem 0;
+        padding: .5rem;
         text-align: center;
+        width: 50%;
+        display: inline-block;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
         .logo{
           width: 100%;
           max-width: 400px;
@@ -21,11 +26,10 @@
           position: relative;
           border-radius: 5px;
           overflow: hidden;
-          margin-bottom: 1.5rem;
-          border: 1px solid #000;
+          margin-bottom: .5rem;
+          border: 1px solid #797979;
           img {
-              height: 70px;
-              // filter: invert(1);
+              height: 50px;
           }
           &::before{
             content: "";
@@ -38,11 +42,9 @@
         }
         .title {
             font-weight: bold;
-            line-height: 1.2rem;
-            font-size: 1.1rem;
+            font-size: .9rem;
         }
         .subtitle {
-            line-height: 1.2rem;
             font-size: 0.8rem;
             opacity: 0.8;
         }
@@ -63,23 +65,13 @@
     overflow-y: auto;
     .intro {
         padding: 2rem 0;
-        max-width: 600px;
+        max-width: 500px;
         margin: 0 auto;
         .intro-logo{
           width: 100px;
           margin: 0 auto;
           display:block;
           padding: 3rem 0 0;
-        }
-        .awards{
-          .award{
-              width: 50%;
-            display: inline-block;
-            padding: .5rem;
-            @media (max-width: 768px) {
-              width: 100%;
-            }
-          }
         }
     }
 }
