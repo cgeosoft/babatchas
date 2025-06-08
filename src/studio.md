@@ -2,25 +2,14 @@
 layout: studio.pug
 permalink: studio.html
 lang: en
-descriptions:
-  - Babatchas Design Studio is an interior design office located in Athens, Greece,
-    specializing in the study of private residents, luxury accommodation and commercial
-    spaces while at the same time creating design objects, custom made furniture and
-    pieces of art. Chrysi Makri and Nefeli Gkyzi are the co-founders and creative directors
-    of Babatchas Design Studio.
-  - Chrysi is an interior architect with an over a decade experience in high end residential
-    and hospitality projects around the world, as well as commercial ones. After a successful
-    career in the UK, she returned to Greece to focus on five star hospitality projects
-    in Greece and Asia.
-  - Nefeli is an interior architect with a rigid background in large scale commercial
-    projects in Germany where she gained an organized business profile as well as a
-    management talent. She returned to her routes in Greece to get involved in luxury
-    hospitality projects and residences.
-  - Once their business routes had collided, their shared passion in interiors and art
-    motivated them to create a collective where design ideas and forms could flourish
-    and develop. Their shared vision is creating interiors that evoke emotions and remain
-    honest and close to their context and location. Their shared love for their country’s
-    tradition as well as Greece’s local grace and peculiarities has guided them towards
-    reforming interior design suggestions that create a warm familiar feeling spiced
-    up by a fresh and contemporary outtake.
 ---
+
+Babatchas Design Studio is a design firm specializing in interior architecture, with a focus on luxury accommodations and private residences. Additionally, the studio excels in designing unique objects, furniture, and works of art. Based on the island of Tinos, Babatchas is led by interior architects Nefeli Gkyzi and Chrysi Makri.
+
+Nefeli brings extensive experience from large-scale, demanding projects in Germany, where she developed a comprehensive professional profile, including expertise in project management. She returned to Greece to focus on designing luxury hospitality units.
+
+Chrysi, with over a decade of experience in high-end residential and hospitality projects, worked and lived in London before returning to Greece. She now specializes in interior design for five-star hotels across Greece and the broader Mediterranean region.
+
+Their meeting marked the beginning of a shared passion for interior architecture, decoration, and art, as well as the desire to create a platform where ideas evolve into spaces full of soul. Their vision is reflected in projects that awaken emotions and remain faithful to the unique character of their locations.
+
+Guided by a deep appreciation for tradition and local distinctiveness, combined with a fresh, contemporary perspective, the team creates interior design proposals that are simultaneously familiar and innovative.
