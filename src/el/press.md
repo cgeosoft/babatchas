@@ -3,6 +3,17 @@ layout: press.pug
 permalink: el/press.html
 lang: el
 items:
+
+- title: Wallpaper
+  subtitle: Monsieur Didot, The Residence
+  image: wallpaper.jpg
+  url: https://www.wallpaper.com/travel/greece/athens/hotels/monsieur-didot
+
+- title: HOTEL IMPROVEMENT
+  subtitle: The Storyteller, Meteora, Greece
+  image: hotel-improvement.jpg
+  url: /files/HOTEL2024.pdf
+
 - title: ARCHELLO
   subtitle: Monsieur Didot, The Residence
   image: archello_monsieur-didot-the-residence.jpg
